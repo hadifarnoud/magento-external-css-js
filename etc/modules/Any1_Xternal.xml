@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Any1_Xternal>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Any1_Xternal>
+    </modules>
+</config>

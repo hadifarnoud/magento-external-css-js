@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Any1_Xternal>
+            <version>1.0.0</version>
+        </Any1_Xternal>
+    </modules>
+    <global>
+    
+        <blocks>
+            <Any1_externals>
+                <class>Any1_Xternal_Block</class>
+            </Any1_externals>
+            <page>
+                <rewrite>
+                    <html_head>Any1_Xternal_Block_Html_Head</html_head>
+                </rewrite>
+            </page>
+        </blocks>
+        
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <Any1_xternal module="Any1_Xternal">
+                    <file>Any1_xternal.xml</file>
+                </Any1_xternal>
+            </updates>
+        </layout>
+    </frontend>
+
+</config>
